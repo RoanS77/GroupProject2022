@@ -2,7 +2,7 @@
 Authors: Spadazzi Roan, Bertozzi Jacopo, Martinengo Lucia, Sperandio Luca
 
 -------------------------------------------------------------------------
-FILES & FOLDERS
+# FILES & FOLDERS
 
 .py files
 
@@ -20,7 +20,7 @@ part2_classes_operations.py includes:
   - Flask-based web application
   - load of HTML pages
   - start of the local-host web server
-  # link: http://127.0.0.1:8080/
+  - link: http://127.0.0.1:8080/
   - user-input error handling
 
 Further explanations on methodologies used inside the code (comments)

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>General Semantics</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8080">
+            <input type="submit" name="send" value="Homepage" />
+    </form>
+    <p>The column names of the first dataset "disease_evidences.tsv" are: </p>
+    <ul>
+        {% for el in result[0] %}
+        <li>{{el}}</li>
+        {% endfor %}
+    </ul>
+    <p></p>
+    <p>The column names of the second dataset "gene_evidences.tsv" are: </p>
+    <ul>
+        {% for el in result[1] %}
+        <li>{{el}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

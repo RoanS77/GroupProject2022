@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+<body>
+    <h4>Select an operation to perform on the datasets:</h4>
+    <ul>
+        {% for val in range(registry|length) %}
+        <li><a href="./{{links[val]}}"><h5>{{registry[val]}}</h5></a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

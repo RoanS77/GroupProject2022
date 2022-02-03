@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top 10</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8080">
+            <input type="submit" name="send" value="Homepage" />
+    </form>
+    <ol>
+    {% for tuple in result%}
+        <li>
+            <p>DiseaseID: {{tuple[0]}} & GeneID: {{tuple[1]}}</p>
+        </li>
+    {%endfor%}
+    </ol>
+</body>
+</html>

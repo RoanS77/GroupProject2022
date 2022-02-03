@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disease List</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8080">
+            <input type="submit" name="send" value="Homepage" />
+    </form>
+    <h5>List of all diseases linked to gene {{gene}}:</h5>
+    <ul>
+        {%for el in result%}
+        <li>{{el}}</li>
+        {%endfor%}
+    </ul>
+
+</body>
+</html>

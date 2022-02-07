@@ -83,7 +83,7 @@ def result_page8():
 
 @app.route('/DiseaseToGenesUser')  # 2.9 - user input
 def user_page4():
-    return render_template('displeased.html')
+    return render_template('diseasetogene.html')
 
 @app.route('/DiseaseToGenes')  # 2.9
 def result_page9():

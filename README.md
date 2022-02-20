@@ -38,7 +38,7 @@ GroupProject.vpp is:
   - a .vpp file that can be loaded with Visual Paradigm for the UML diagram
 
 
-UML Diagram.PNG is:
+UML Diagram v2.PNG is:
   - the PNG equivalent of the .vpp file
   
   

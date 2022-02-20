@@ -25,6 +25,10 @@ part2_classes_operations.py includes:
 
 Further explanations on methodologies used inside the code (comments)
 
+Project_Specification.pdf is:
+  - The complete list of all relevant information about the project,
+    including explanations, design and implementation choices, 
+    the structure of the classes, the UML diagram.
 
 CRC Cards includes:
   - .PNG Images for each class used in part2
